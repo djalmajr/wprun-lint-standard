@@ -1,0 +1,26 @@
+{
+  "name": "wprun-standard-config",
+  "version": "0.1.0",
+  "description": "Generic Webpack Config",
+  "author": "Djalma Jr. <djalmajr@gmail.com>",
+  "license": "UNLICENSED",
+  "contributors": [],
+  "homepage": "https://github.com/djalmajr/wprun-standard-config/tree/master#readme",
+  "bugs": {
+    "url": "https://github.com/djalmajr/wprun-standard-config/issues"
+  },
+  "scripts": {
+    "postinstall": "cp .editorconfig .gitignore .eslintrc.yml .prettierrc.yml ../.."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:djalmajr/wprun-standard-config.git"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.15.3"
+  }
+}
